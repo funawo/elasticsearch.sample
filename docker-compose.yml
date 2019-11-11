@@ -41,3 +41,5 @@ services:
       - '5044:5044'
       - '43448:43448/udp'
       - '9600:9600'
+    environment:
+      - "ES_JAVA_OPTS=-Xms400m -Xmx400m"
